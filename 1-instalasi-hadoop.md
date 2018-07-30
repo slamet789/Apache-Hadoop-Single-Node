@@ -21,30 +21,37 @@ tar -xvf jdk-8u101-linux-i586.tar.gz
 ```
 wget https://archive.org/dist/hadoop/core/hadoop-2.7.3/hadoop-2.7.3.tar.gz
 ```
+![Instalasi Hadoop](https://github.com/slamet789/Apache-Hadoop-Single-Node/blob/1-instalasi-hadoop/instalasi-hadoop/install-hadoop1.png "Menginstal Hadoop dari distribusi")
 * Mengekstrak file hadoop-2.7.3.tar.gz
 ```
 tar -xzvf hadoop-2.7.3.tar.gz
 ```
+![Ekstrak File Hadoop](https://github.com/slamet789/Apache-Hadoop-Single-Node/blob/1-instalasi-hadoop/instalasi-hadoop/install-hadoop2.png "Ekstrak file Hadoop")
+![Ekstrak File Hadoop](https://github.com/slamet789/Apache-Hadoop-Single-Node/blob/1-instalasi-hadoop/instalasi-hadoop/install-hadoop3.png "Ekstrak file Hadoop")
 * Membuat file .bashrc untuk mengatur path home dari Hadoop dan Java
 ```
 nano .bashrc
 ```
+![Membuat file .bashrc](https://github.com/slamet789/Apache-Hadoop-Single-Node/blob/1-instalasi-hadoop/instalasi-hadoop/install-hadoop4.png "Membuat file .bashrc")
+
 Isi file .bashrc sebagai berikut :
 
+![Isi file .bashrc](https://github.com/slamet789/Apache-Hadoop-Single-Node/blob/1-instalasi-hadoop/instalasi-hadoop/install-hadoop5.png "Isi file .bashrc")
 * Untuk menjalankan perubahan, jalankan perintah berikut
 ```
 source .bashrc
 ```
+![Menjalankan perubahan](https://github.com/slamet789/Apache-Hadoop-Single-Node/blob/1-instalasi-hadoop/instalasi-hadoop/install-hadoop6.png "Menjalankan perubahan pada file .bashrc")
 * Selanjutnya cek versi Java dan Hadoop
 ```
 java -version
 ```
-
 ```
 hadoop version
 ```
 Hasilnya sebagai berikut :
 
+![Hasil cek versi Hadoop](https://github.com/slamet789/Apache-Hadoop-Single-Node/blob/1-instalasi-hadoop/instalasi-hadoop/install-hadoop7.png "Hasil cek versi Hadoop")
 
 Referensi :
 * https://www.edureka.co/blog/install-hadoop-single-node-hadoop-cluster
